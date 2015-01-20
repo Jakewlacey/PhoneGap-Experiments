@@ -1,0 +1,31 @@
+.full-width-container { width: 100%; margin: 0 auto;}
+.fill-width-container div.ui.card { width: 100%; border-radius: 0;}
+
+.main-container { margin-top: 20px}
+
+#connecting { 
+	background: #f1c40f;/* connecting        */
+	background: #2ecc71;/* connected         */
+	background: #e74c3c;/* connection failed */
+}
+
+
+
+
+#connecting p{ color: #fff; text-align: center; font-size: 1.4em;}
+
+#header-frame {min-width: 100%; position: fixed; z-index: 100;}
+
+#header-frame .ui.menu { margin-bottom: 0px; margin-top: 0px; }
+
+#frame-top { height: 20px; background: #2ecc71;}
+
+#main-content { padding-top: 70px;}
+
+
+.central-loader { width: 5%; margin: 0 auto; padding-bottom: 10px;}
+
+
+/*dragable frame*/
+#header-frame { -webkit-app-region: drag}
+#header-frame .item { -webkit-app-region: no-drag}
