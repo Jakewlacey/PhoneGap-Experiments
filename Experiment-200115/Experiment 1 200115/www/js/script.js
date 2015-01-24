@@ -1,5 +1,7 @@
 $(document).ready(function(){
 	
+	$('nav#menu').mmenu();
+
     $('.ui.dropdown').dropdown();
     
     $('.ui.menu .dropdown').dropdown({

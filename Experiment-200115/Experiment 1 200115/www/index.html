@@ -5,10 +5,14 @@
 		<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		
+		<link type="text/css" rel="stylesheet" href="mmenu.src/css/jquery.mmenu.all.css" />
+		
+		
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
 		
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
   		<script src="semantic/dist/semantic.js"></script>
+  		<script type="text/javascript" src="mmenu.src/js/jquery.mmenu.min.all.js"></script>
   		
   		<script src="js/script.js"></script>
 		
@@ -25,8 +29,9 @@
 
 			<!-- menu -->
 			<div class="ui menu">
-
-				<a class="item" href="#">&#9776</a>
+				
+				<!-- mmenu link -->
+				<a class="item" href="#menu">&#9776</a>
 
 				<a class="item" href="#"><i class="filter icon"></i> Filter </a>
 				
@@ -190,6 +195,28 @@
 			</div>
 
 		</div>
+		
+		
+		<!-- menu -->
+		<nav id="menu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">About us</a>
+						<ul>
+							<li><a href="#about/history">History</a></li>
+							<li><a href="#about/team">The team</a>
+								<ul>
+									<li><a href="#about/team/management">Management</a></li>
+									<li><a href="#about/team/sales">Sales</a></li>
+									<li><a href="#about/team/development">Development</a></li>
+								</ul>
+							</li>
+							<li><a href="#about/address">Our address</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
 		
 	</body>
